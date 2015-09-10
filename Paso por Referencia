@@ -16,5 +16,3 @@ int main()
 void elevarCuadrado (int &y ) {
   y = y*y;
 }
-
-Hola Anco :D
