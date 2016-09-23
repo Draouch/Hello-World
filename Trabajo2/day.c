@@ -39,19 +39,6 @@ void month_day(int year, int yearday){
 	for(i=1; yearday > daytab[leap][i]; i++)
 		yearday -= daytab[leap][i];
 		
-		printf("Month: %d, Day: %d\n", i, yearday);
-		
-}
-
-void month_day(int year, int yearday){
-	
-	int i, leap;
-	
-	leap = year % 4 == 0 && year%100 != 0 || year%400 == 0;
-	
-	for(i=1; yearday > daytab[leap][i]; i++)
-		yearday -= daytab[leap][i];
-		
-		printf("Month: %d, Day: %d\n", i, yearday);
+	printf("Month: %d, Day: %d\n", i, yearday);
 		
 }
